@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { ListOfCategories } from './components/ListOfCategories';
+import { ListOfPhotoCards } from './components/ListOfPhotoCards';
 
 import { GlobalStyle } from './GlobalStyles';
 
@@ -8,6 +9,7 @@ const App = () => {
         <div>
             <GlobalStyle />
             <ListOfCategories />
+            <ListOfPhotoCards />
         </div>
     )
 }
